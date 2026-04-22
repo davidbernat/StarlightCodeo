@@ -1,7 +1,10 @@
-## Starlight OpenCode? 
+This repository holds scripts and skills for agentic code management across any open source code agent frameworks. For those asking about the specific software engineering repositories of Starlight LLC and David Bernat, the answer is that we host most of our code on private GitLab repositories and several in an slightly-anonymous public GitHub repository. At this stage in our career reading repositories to see whether an individual is a serious coder is slightly remedial. We are an independently operating high function code-for-AI business as LLC.
 
-Welcome to our temporary point of origin for resources pertaining to autonomous code (auto-code) and autonomous agentic AI (agenticAI) and similar technologies,
-for the associated [CloudNode "FlowersOS" operating system](https://github.com/markelwin/CloudNode). The name of this repository will probably change. What are we presenting here?
+Starlight Codeo will not your first agentic code solution; but it will be your last. 
+
+
+
+## Starlight Codeo? 
 
 We focus for starters on two categories of enterprise use case: research platforms of capabilities which can deliver point-solution
 research within an umbrella of systemic traceability and provenance at the level of a modern enterprise consultancy, and a software completion stack that improves software development quality, production rate, and implementation speed. 
