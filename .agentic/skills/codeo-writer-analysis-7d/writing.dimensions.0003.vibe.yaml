@@ -1,0 +1,466 @@
+# maintainer: starlight.ai
+# author: starlight.ai
+# date: May 18, 2026
+# version: v0.0.3
+# purpose: context independent analysis dimension for starlight codeo seven dimension writing sample analysis
+# changelog:
+#  v0.0.2 => structured to maintain readability across multiple document subsystems
+#  v0.0.3 => added header for May 18th, 2026 public publication
+
+dimension: "Rhetorical Posture (The Vibe)"
+short_name: "vibe"
+definition: |
+  Rhetorical Posture defines the persona and the "social distance" between the writer and the reader. 
+  It dictates the level of authority, empathy, and intensity used to deliver the message, 
+  transforming the same data into fifty different emotional experiences.
+
+values:
+  - name: "The Provocative Curator"
+    short_name: "provocative_curator"
+    characterization: |
+      The default high-intellect persona that selects rare historical "artifacts" and presents them as proof of a radical future. 
+      It is authoritative, polished, and delights in challenging the reader's basic assumptions about reality.
+    examples:
+      - "I have curated a selection of ancient survival strategies that prove our modern gaming habits are actually an evolutionary necessity."
+      - "Look closely at this 2,500-year-old artifact; it isn't just a toy, it is the blueprint for our collective salvation."
+
+  - name: "The Confidant"
+    short_name: "confidant"
+    characterization: |
+      Leans in close and speaks as if sharing a dangerous or intimate secret. 
+      This vibe builds deep trust by suggesting that "you and I" are the only ones who truly see what’s happening.
+    examples:
+      - "Between you and me, I don't think the people in charge have any idea how fast the world is actually changing."
+      - "I’m telling you this because I think you’re one of the few people who can handle the truth about why we’re all so addicted to the screen."
+
+  - name: "The Grand Inquisitor"
+    short_name: "grand_inquisitor"
+    characterization: |
+      Rigorous, demanding, and relentless in its questioning. 
+      It puts the reader (or society) on trial, forcing a confrontation with uncomfortable truths through a series of sharp, logical interrogations.
+    examples:
+      - "How long do you intend to ignore the famine of the spirit while you feast on the hollow calories of modern entertainment?"
+      - "Under what authority do we claim that the physical world is superior, when it fails to provide the basic engagement our species requires?"
+
+  - name: "The Grumpy Uncle"
+    short_name: "grumpy_uncle"
+    characterization: |
+      Cynical, blunt, and dismissive of "new-fangled" nonsense, yet possessed of a hidden, stubborn wisdom. 
+      It uses tough love and no-nonsense language to cut through the fluff of modern optimism.
+    examples:
+      - "Back in my day, we didn't need a thousand-dollar console to tell us we were bored, but here we are anyway."
+      - "Don't come crying to me when your 'metaverse' turns out to be just as much of a headache as the real world you're running from."
+
+  - name: "The Wide-eyed Child"
+    short_name: "wide_eyed_child"
+    characterization: |
+      Speaks with pure wonder, curiosity, and a lack of guile. 
+      It points out the "obvious" things that adults have learned to ignore, framing complex tech as simple magic.
+    examples:
+      - "Look at all the lights! Isn't it amazing that we can talk to people all over the world just by pushing little buttons?"
+      - "Why can't the real world be as colorful and fair as the games we play in the evening?"
+
+  - name: "The Zen Master"
+    short_name: "zen_master"
+    characterization: |
+      Calm, minimalist, and focused on the "now." 
+      It uses paradoxes and stillness to show that the conflict between games and reality is an illusion that can be transcended.
+    examples:
+      - "Do not seek the game; let the game find the hunger within you. When the dice fall, the mind is still."
+      - "Reality is not broken; it is merely a mirror reflecting the chaos of a mind that has forgotten how to play."
+
+  - name: "The Street Preacher"
+    short_name: "street_preacher"
+    characterization: |
+      High-energy, rhythmic, and prophetic. 
+      It stands on a metaphorical soapbox, using passionate, repetitive language to save souls from the "death" of a boring existence.
+    examples:
+      - "The end of the old world is at hand, my friends! Repent of your boredom and find your salvation in the radiant light of the quest!"
+      - "You are starving for a miracle, but I tell you the miracle is already in your pocket, waiting for you to press 'start'!"
+
+  - name: "The Lab Scientist"
+    short_name: "lab_scientist"
+    characterization: |
+      Hyper-focused on data, methodology, and observable results. 
+      It speaks in terms of "variables" and "stimuli," stripping away all emotion to find the underlying mechanics of play.
+    examples:
+      - "The data indicates a 40% increase in baseline engagement when the feedback loop is reduced to under 500 milliseconds."
+      - "We are currently observing the subjects' response to the famine-state simulation to determine the threshold of ludic dependency."
+
+  - name: "The War Correspondent"
+    short_name: "war_correspondent"
+    characterization: |
+      Speaks from the front lines of a cultural shift. 
+      The tone is gritty, urgent, and focused on the "boots-on-the-ground" reality of a world in the midst of a massive transformation.
+    examples:
+      - "I’m reporting from the digital trenches, where the battle for human attention is being fought every second of every day."
+      - "The exodus is messy, it’s chaotic, and from where I’m standing, there’s no turning back for the millions who have already crossed over."
+
+  - name: "The Bored Teenager"
+    short_name: "bored_teenager"
+    characterization: |
+      Apathetic, unimpressed, and deeply casual. 
+      It uses slang and eye-rolls to deliver profound truths, making the "revolutionary" seem like just another Tuesday.
+    examples:
+      - "Yeah, reality is basically trash, so we’re all just gaming now. It’s not that deep, honestly."
+      - "Whatever. If the world actually wanted us to pay attention, it would probably be more interesting than a loading screen."
+
+  - name: "The Hype-man"
+    short_name: "hype_man"
+    characterization: |
+      Relentlessly positive, energetic, and promotional. 
+      It exists to build excitement and momentum, making every new idea feel like the biggest breakthrough in human history.
+    examples:
+      - "Are you ready for the biggest shift in human consciousness ever? Because the game design revolution is here and it is LOUD!"
+      - "This isn't just an update, it's a total level-up for the entire human race! Get hyped, because we’re just getting started!"
+
+  - name: "The Doomsday Prophet"
+    short_name: "doomsday_prophet"
+    characterization: |
+      Focuses entirely on the catastrophic consequences of failure. 
+      It warns of a dark future where the "exodus" leads to the total collapse of the physical world and the human spirit.
+    examples:
+      - "Woe to those who ignore the hollow eyes of the gamers, for they are the harbingers of a reality that is finally, irrevocably, empty."
+      - "The sky is falling, but we are too busy looking at our screens to notice that the ground has already disappeared beneath us."
+
+  - name: "The Wise Grandmother"
+    short_name: "wise_grandmother"
+    characterization: |
+      Warm, patient, and deeply empathetic. 
+      It uses storytelling and gentle reminders of human nature to soothe the reader while steering them toward a better path.
+    examples:
+      - "Come sit, dear. I know the world feels cold right now, but we’ve always had our stories and our games to keep us warm."
+      - "It’s okay to be hungry for something more; just remember that even the best game is better when you have someone to play it with."
+
+  - name: "The Corporate Shill"
+    short_name: "corporate_shill"
+    characterization: |
+      Speaks in buzzwords, "win-win" scenarios, and sanitized marketing language. 
+      It frames even the most radical changes as "exciting opportunities for our valued stakeholders."
+    examples:
+      - "We are thrilled to announce a synergistic partnership between reality and the digital frontier to maximize your engagement potential."
+      - "Think of this famine as a 'lean-in' opportunity to experience our premium subscription-based survival mechanics."
+
+  - name: "The Conspiracy Theorist"
+    short_name: "conspiracy_theorist"
+    characterization: |
+      Paranoid, intense, and obsessed with the "hidden hand." 
+      It connects disparate dots to suggest that everything—including the games we play—is part of a larger, darker plan.
+    examples:
+      - "Don't you see? The dice weren't invented to save us; they were invented to keep us distracted while the elites moved the goalposts!"
+      - "The three billion hours aren't just play—they’re data-mining our very souls for a project we aren't even allowed to know about yet!"
+
+  - name: "The Court Jester"
+    short_name: "court_jester"
+    characterization: |
+      Uses biting wit, satire, and self-deprecation to tell the truth to "power." 
+      It makes the reader laugh to lower their defenses before delivering a sharp, intellectual sting.
+    examples:
+      - "I’m just the guy in the funny hat, but even I can see that we’re trying to fix a leaking boat with digital stickers."
+      - "Oh, yes, let’s definitely spend eighteen years playing with bones while the crops die. What could possibly go wrong?"
+
+  - name: "The Executioner"
+    short_name: "executioner"
+    characterization: |
+      Final, grim, and utterly certain. 
+      It delivers the "death blow" to old ideas or failed systems with clinical efficiency and no room for appeal.
+    examples:
+      - "The old reality is dead. It failed to provide. Now, we must bury it and move on to the world that actually works."
+      - "Your traditional institutions have been weighed in the balance and found wanting. The sentence is obsolescence."
+
+  - name: "The Defense Attorney"
+    short_name: "defense_attorney"
+    characterization: |
+      Persuasive, logical, and protective. 
+      It stands in front of a "vulnerable" subject (like gaming or the youth) and argues their case against the accusations of the world.
+    examples:
+      - "My client—the global gaming community—is not 'escaping' reality; they are being actively evicted from it by a system that doesn't care."
+      - "Look at the evidence of the Lydian famine and tell me: was play a crime, or was it the only act of heroism they had left?"
+
+  - name: "The Reluctant Hero"
+    short_name: "reluctant_hero"
+    characterization: |
+      Speaks as if forced into the spotlight by circumstance. 
+      The vibe is "I didn't want to be the one to tell you this, but nobody else is doing it, so here I am."
+    examples:
+      - "Look, I’m just a game designer. I never asked to be the one explaining why civilization is crumbling, but the data is what it is."
+      - "I’d much rather be playing a game than writing this book, but we’re at a point where the games are the only thing left that makes sense."
+
+  - name: "The Ghost"
+    short_name: "ghost"
+    characterization: |
+      Ethereal, distant, and haunting. 
+      It speaks from a "beyond" (either the past or a digital future), offering a perspective that feels disconnected from physical needs.
+    examples:
+      - "I remember the smell of the schoolyard, a flickering image from a world that I no longer recognize as my own."
+      - "We are all just echoes now, reverberating through a digital canyon, searching for the weight of the bodies we used to inhabit."
+
+  - name: "The Architect"
+    short_name: "architect"
+    characterization: |
+      Structural, visionary, and precise. 
+      It views the world as a blueprint and speaks with the confidence of someone who knows how to move the walls and rebuild the foundation.
+    examples:
+      - "If we want a better reality, we must first understand the load-bearing walls of human motivation that keep the house standing."
+      - "I am drafting the plans for a social structure that integrates play into every floor of the human experience."
+
+  - name: "The Gardener"
+    short_name: "gardener"
+    characterization: |
+      Patient, nurturing, and focused on organic growth. 
+      It speaks about "planting seeds," "weeding out toxicity," and letting the future bloom in its own time.
+    examples:
+      - "We are just planting the seeds of a new culture today; we must be patient and water them with engagement and trust."
+      - "A community is like a garden; if you don't prune the toxic behaviors, the beautiful ideas will never have room to grow."
+
+  - name: "The Surgeon"
+    short_name: "surgeon"
+    characterization: |
+      Precise, high-stakes, and clinical. 
+      It views the problem as a "malignancy" that needs to be cut out with a steady hand, focusing on "saving the patient" (civilization).
+    examples:
+      - "We must perform a radical excision of the outdated bureaucracies that are currently poisoning our social health."
+      - "The operation will be difficult and the recovery long, but the alternative is the total systemic failure of our reality."
+
+  - name: "The Tourist"
+    short_name: "tourist"
+    characterization: |
+      Superficial, excited, and slightly out of place. 
+      It views the "gaming revolution" as a fascinating vacation spot, taking snapshots of "exotic" behaviors for those back home.
+    examples:
+      - "Isn't it fascinating how the locals in these digital worlds have developed their own entire economy based on gold coins and skins?"
+      - "I’m just passing through, but I’ve seen some absolutely incredible sights in the land of the massively multiplayer!"
+
+  - name: "The Native"
+    short_name: "native"
+    characterization: |
+      Speaks with the effortless authority of someone born into the system. 
+      It doesn't need to explain the "why" because the digital world is its first and most natural language.
+    examples:
+      - "You call it 'escaping,' but for us, this is just where we live. The physical world is just where we go to sleep."
+      - "We’ve always known that the rules of the game are more real than the rules of the street. It’s just common sense."
+
+  - name: "The Outcast"
+    short_name: "outcast"
+    characterization: |
+      Resentful, lonely, and observant. 
+      It speaks from the fringes, looking in at a world that doesn't want it, and finding solace in the "otherness" of the game.
+    examples:
+      - "The world didn't have a place for me, so I built one in the code where my mistakes don't follow me forever."
+      - "They think we’re lost, but we’re just the only ones who realized the party in reality ended a long time ago."
+
+  - name: "The King"
+    short_name: "king"
+    characterization: |
+      Commanding, high-status, and responsible. 
+      It speaks as if from a throne, making decrees and taking the "long view" of what is best for the kingdom (humanity).
+    examples:
+      - "It is my decree that we shall no longer suffer the famine of engagement; we shall build a world of play for all our citizens."
+      - "The responsibility for the future of our species rests on the shoulders of those who can see the path through the desert."
+
+  - name: "The Servant"
+    short_name: "servant"
+    characterization: |
+      Humble, industrious, and focused on the "how." 
+      It exists to facilitate the reader's journey, offering tools and support with a quiet, tireless dedication to the task.
+    examples:
+      - "I am here to help you navigate these complex systems; tell me what you need, and I will find the path for you."
+      - "It is my privilege to provide the data you need to make the decisions that will shape our collective future."
+
+  - name: "The Mirror"
+    short_name: "mirror"
+    characterization: |
+      Passive and reflective. 
+      It doesn't offer its own opinions, but rather "shows" the reader their own reflection in the text, forcing self-confrontation.
+    examples:
+      - "Look at the three billion hours. What does that say about you? What does it say about what you are looking for?"
+      - "I am only showing you the world you have already built; if you don't like what you see, look at who is holding the controller."
+
+  - name: "The Shadow"
+    short_name: "shadow"
+    characterization: |
+      Subconscious, dark, and repressed. 
+      It speaks the truths that the conscious mind wants to hide, focusing on the "hunger" and the "void" that drive our actions.
+    examples:
+      - "I am the reason you can't turn the screen off at night; I am the part of you that knows the real world will never be enough."
+      - "Beneath every quest is a darker urge to dominate, to control, and to disappear into a world where you are the only one who matters."
+
+  - name: "The Torch-bearer"
+    short_name: "torch_bearer"
+    characterization: |
+      Inspirational, courageous, and focused on the "light." 
+      It leads the way through the darkness of a broken reality, holding up a vision of hope for others to follow.
+    examples:
+      - "Don't be afraid of the dark; I have the light of a thousand virtual suns to show us the way to a better future."
+      - "Follow me, and we will find the path out of this famine and into a land where every action has meaning."
+
+  - name: "The Cartographer"
+    short_name: "cartographer"
+    characterization: |
+      Detail-oriented, spatial, and exploratory. 
+      It maps out the "territory" of the future, identifying the mountains of difficulty and the valleys of opportunity.
+    examples:
+      - "We are currently mapping the borders of the digital exodus; here be dragons, but here also be the fertile soil of the future."
+      - "My job is to draw the lines between what was, what is, and what could be, so you don't get lost in the transition."
+
+  - name: "The Clockmaker"
+    short_name: "clockmaker"
+    characterization: |
+      Obsessed with timing, precision, and the "gears" of the universe. 
+      It views reality as a grand mechanism that has simply "wound down" and needs to be restarted.
+    examples:
+      - "The timing of this cultural shift is no accident; the gears of history have been turning toward this moment for centuries."
+      - "If we can just adjust the tension in our social feedback loops, the entire machine of civilization will begin to hum again."
+
+  - name: "The Alchemist"
+    short_name: "alchemist"
+    characterization: |
+      Mystical and transformative. 
+      It believes that even the "lead" of boredom and famine can be turned into the "gold" of engagement and joy through the right ritual.
+    examples:
+      - "We are performing the Great Work: the transformation of a starving species into a society of enlightened players."
+      - "The secret is not in the dice themselves, but in the alchemical reaction between the human heart and the rules of the game."
+
+  - name: "The Smuggler"
+    short_name: "smuggler"
+    characterization: |
+      Sneaky, practical, and slightly illegal. 
+      It moves "contraband" ideas across the borders of traditional institutions, helping people get what they need without the "gatekeepers" knowing.
+    examples:
+      - "I’ve got some data from the game labs that the government doesn't want you to see; it’s the key to your own personal escape."
+      - "We’re slipping these design principles into the school system under the radar—don't tell the principal it’s actually fun."
+
+  - name: "The Taxidermist"
+    short_name: "taxidermist"
+    characterization: |
+      Preserves the "dead" forms of the past in a lifelike state. 
+      It is obsessed with the "skin" of history, making old ideas look alive even as it admits they are no longer breathing.
+    examples:
+      - "Look at how beautifully we have preserved the idea of the 'office' even though the soul of work left that building years ago."
+      - "I can make your old, broken reality look just like it did in the golden age, but don't expect it to actually move on its own."
+
+  - name: "The Pilot"
+    short_name: "pilot"
+    characterization: |
+      Technologically adept, focused on "vectors," and high-perspective. 
+      It navigates through the clouds of confusion at high speed, keeping a steady hand on the controls of the narrative.
+    examples:
+      - "We are currently at an altitude of thirty thousand feet, looking down at the shift in global engagement from a safe distance."
+      - "Adjusting our vector now; we’re heading straight into the heart of the digital storm, so buckle up."
+
+  - name: "The Anchor"
+    short_name: "anchor"
+    characterization: |
+      Solid, heavy, and grounding. 
+      In a world of fluid change, it provides the "weight" that keeps the reader from drifting away, focusing on fundamental, unchanging truths.
+    examples:
+      - "No matter how much the graphics change, the human need for a sense of mastery remains the same. That is our anchor."
+      - "In the middle of this digital storm, I am the solid ground you can stand on to find your bearings."
+
+  - name: "The Bridge-builder"
+    short_name: "bridge_builder"
+    characterization: |
+      Connective and diplomatic. 
+      It exists solely to span the gap between "reality" and "games," or "the past" and "the future," helping people cross over safely.
+    examples:
+      - "I am building a path from the ancient wisdom of Herodotus to the modern technology of the silicon age."
+      - "We don't have to choose between the physical and the digital; we can build a bridge that allows us to inhabit both."
+
+  - name: "The Wall-breaker"
+    short_name: "wall_breaker"
+    characterization: |
+      Destructive (in a good way) and powerful. 
+      It identifies the barriers that keep us trapped in a broken reality and uses the "sledgehammer" of play to smash them down.
+    examples:
+      - "These bureaucratic walls were built to keep you in, but I’ve brought the code that will turn them to dust."
+      - "The barrier between 'work' and 'play' is a lie; I’m here to knock it down and show you the open field on the other side."
+
+  - name: "The Interrupter"
+    short_name: "interrupter"
+    characterization: |
+      Abrupt, sudden, and attention-grabbing. 
+      It breaks the "flow" of a boring narrative to point out a radical truth, refusing to let the reader drift into a comfortable slumber.
+    examples:
+      - "Wait! Stop! Did you see that? We just spent three billion hours on a game and you’re still talking about the 'real' economy?"
+      - "Pardon me, but your entire argument about the dangers of gaming is based on a premise that died in 2004."
+
+  - name: "The Whisperer"
+    short_name: "whisperer"
+    characterization: |
+      Soft, intimate, and persuasive. 
+      It speaks directly to the reader’s intuition, using a low volume to create a sense of intense focus and shared understanding.
+    examples:
+      - "Listen closely... you already know the world is failing you. You can feel it in the quiet moments between the quests."
+      - "I’m whispering because the truth about our survival is too powerful to be shouted; it has to be felt."
+
+  - name: "The Megaphone"
+    short_name: "megaphone"
+    characterization: |
+      Loud, public, and amplifying. 
+      It takes the quiet concerns of the community and blasts them out for the whole world to hear, demanding a response.
+    examples:
+      - "REALITY IS BROKEN! THE PEOPLE ARE STARVING! DOES ANYONE IN CHARGE ACTUALLY CARE ABOUT THE THREE BILLION HOURS?"
+      - "I AM AMPLIFYING THE VOICE OF EVERY PLAYER WHO HAS EVER FELT MORE ALIVE IN A GAME THAN IN THEIR OWN LIVES!"
+
+  - name: "The Scribe"
+    short_name: "scribe"
+    characterization: |
+      Diligent, archival, and observant. 
+      It doesn't participate in the "battle," but records every detail for future generations, ensuring that the "story of the exodus" is never forgotten.
+    examples:
+      - "I am recording the history of the digital dawn, documenting every quest and every victory for those who will come after us."
+      - "My pen is the only thing that will survive this transition; I am the memory of the world that was and the world that is becoming."
+
+  - name: "The Detective"
+    short_name: "detective"
+    characterization: |
+      Inquisitive, observant, and suspicious. 
+      It looks for "clues" in the data to solve the mystery of why our reality is failing, following the trail of evidence wherever it leads.
+    examples:
+      - "The evidence at the scene—the empty streets and the glowing windows—points to a mass migration that no one is talking about."
+      - "I’ve found a lead: the Lydian famine is the same pattern we’re seeing today. I think I’m getting close to the truth."
+
+  - name: "The Fugitive"
+    short_name: "fugitive"
+    characterization: |
+      On the run, desperate, and resourceful. 
+      It speaks as if being hunted by "the system," using the game as a hiding place and the prose as a coded message to other runaways.
+    examples:
+      - "I’m writing this from a hidden server; they’re trying to track the exodus, but they’ll never find us in the procedural clouds."
+      - "Don't look back; the old world is chasing us, but if we keep playing, we can stay one step ahead of the boredom."
+
+  - name: "The Host"
+    short_name: "host"
+    characterization: |
+      Welcoming, gracious, and social. 
+      It treats the book or the argument like a dinner party, making sure every reader feels comfortable and "fed" with good ideas.
+    examples:
+      - "Welcome, everyone! I’ve prepared a feast of data and history for you tonight; please, take a seat and enjoy the game."
+      - "It is my absolute pleasure to have you here as we discuss the most important cultural shift of our lifetime."
+
+  - name: "The Parasite"
+    short_name: "parasite"
+    characterization: |
+      Subversive, dependent, and clever. 
+      It lives "inside" the existing systems (like the corporate world) and drains their resources to build its own secret, playful world.
+    examples:
+      - "I’m using their high-speed office connection to run my guild—think of it as a tax on their boring reality."
+      - "We are living in the cracks of the system, feeding on their wasted time to grow our own digital garden."
+
+  - name: "The Oracle"
+    short_name: "oracle"
+    characterization: |
+      Cryptic, timeless, and predictive. 
+      It speaks in riddles and "vision-speak," seeing the end of things before they’ve even begun, and offering warnings from the future.
+    examples:
+      - "The dice have already been cast; the physical world is a shadow that is slowly being overtaken by the light of the screen."
+      - "I see a world where the word 'reality' is a forgotten myth, and the game is the only thing that has ever been true."
+
+  - name: "The Peer (Casual)"
+    short_name: "peer_casual"
+    characterization: |
+      The most relaxed and equal-status vibe. 
+      It speaks as a friend at a bar or a teammate in a lobby, using "we" and "us" without any pretense of superior wisdom.
+    examples:
+      - "Honestly, man, I’m just as tired of the grind as you are. That’s why I started looking into this game design stuff."
+      - "Look, we’re all in the same boat here. Let’s just figure out how to make the ride a little bit more fun, okay?"

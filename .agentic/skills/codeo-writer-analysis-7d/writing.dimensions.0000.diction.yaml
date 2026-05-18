@@ -1,0 +1,567 @@
+# maintainer: starlight.ai
+# author: starlight.ai
+# date: May 18, 2026
+# version: v0.0.3
+# purpose: context independent analysis dimension for starlight codeo seven dimension writing sample analysis
+# changelog:
+#  v0.0.2 => structured to maintain readability across multiple document subsystems
+#  v0.0.3 => added header for May 18th, 2026 public publication
+
+dimension: "Lexical Density & Weight (Diction)"
+short_name: "lexical_density"
+definition: |
+  Diction is the "texture" of your writing. It refers to the specific vocabulary you choose and how 'heavy' or 'light' 
+  those words feel to the reader. High lexical density uses words that carry historical, emotional, or technical weight, 
+  whereas low density uses common language. It is the difference between a tuxedo, a lab coat, or pajamas; 
+  the "clothes" of your prose change how the message is perceived.
+
+values:
+  - name: "Primal / Visceral"
+    short_name: "primal_visceral"
+    characterization: |
+      This style targets the gut and the ancient brain, using language rooted in biological survival and evolutionary history. 
+      It strips away modern politeness to reveal raw, 'animal' truths that resonate on a pre-conscious, instinctive level.
+    examples:
+      - "A vast and primal hunger that gnaws at the very foundation of our modern psyche."
+      - "The planet is starving for meaning, and our digital games are the only marrow left to suck."
+      - "We are reconnecting with an epoch of one of civilization’s greatest horrors."
+      - "The blood of the ancient world thrums beneath the sterile surface of the motherboard."
+
+  - name: "Clinical / Sterile"
+    short_name: "clinical_sterile"
+    characterization: |
+      This approach is detached and hyper-objective, intentionally avoiding emotional resonance in favor of precise, cold observation. 
+      It treats the subject matter like a biological specimen under a microscope, emphasizing distance, neutrality, and repeatability.
+    examples:
+      - "The subjects exhibited a marked increase in dopamine secretion following the ludic stimulus."
+      - "Engagement metrics shifted by a factor of 0.8 during the controlled famine simulation."
+      - "The phenomenon was isolated within the demographic control group for further longitudinal study."
+      - "Standardized protocols were observed throughout the trial to ensure data integrity across all variables."
+
+  - name: "Bureaucratic / Opaque"
+    short_name: "bureaucratic_opaque"
+    characterization: |
+      This diction is intentionally dense and indirect, utilizing administrative jargon to prioritize institutional systems over individuals. 
+      It aims to sound official and authoritative, yet it often masks simple human truths behind a veil of 'corporate-speak' and passive phrasing.
+    examples:
+      - "We are currently leveraging synergistic paradigms to maximize player retention across the vertical."
+      - "The optimization of human capital remains a primary objective for our gamified interface department."
+      - "A comprehensive framework has been established for multi-sector stakeholder engagement initiatives."
+      - "The implementation of multi-modal output strategies is pending a thorough budgetary review by the board."
+
+  - name: "Vernacular / Slang"
+    short_name: "vernacular_slang"
+    characterization: |
+      This style adopts the informal, everyday language of a specific contemporary time period or digital subculture. 
+      It builds immediate rapport and a sense of "insider" authenticity by speaking the dialect of the people on the ground.
+    examples:
+      - "Most of the players ended up ghosting the main mission because the rewards were total trash."
+      - "It was a total noob move to ignore the hunger bar while grinding for epic loot in the dungeon."
+      - "The developers are basically betting the farm on this new battle pass, and it’s looking kinda mid."
+      - "If you want to win, you’ve gotta stop sleeping on the meta and start playing for keeps."
+
+  - name: "Arcane / Esoteric"
+    short_name: "arcane_esoteric"
+    characterization: |
+      This diction utilizes rare, archaic, or specialized language that suggests the writer possesses 'hidden' or sacred knowledge. 
+      It creates a sense of exclusivity and intellectual depth, requiring the reader to be initiated into a specific way of seeing the world.
+    examples:
+      - "The hermetic seal of the digital world protects the player from the entropy of the physical realm."
+      - "Beneath the pixels lies a palimpsest of forgotten ritual, etched by the hands of ancient architects."
+      - "We must decode the gnostic roots of gaming to understand why we seek salvation in the machine."
+      - "The alchemical transformation of boredom into gold is the secret work of the master game designer."
+
+  - name: "Floral / Ornate"
+    short_name: "floral_ornate"
+    characterization: |
+      This style prioritizes beauty and aesthetic decoration over brevity, employing a rich palette of descriptive adjectives and metaphors. 
+      It seeks to create a lush, sensory experience for the reader, often elevating mundane topics into the realm of the poetic.
+    examples:
+      - "We wander through the gilded corridors of imagination, lit by the flickering lanterns of our own desires."
+      - "Resplendent digital tapestries are woven from the threads of a thousand shimmering subroutines."
+      - "The effervescent joy of victory washed over the stadium like a tide of pure, crystalline light."
+      - "The labyrinthine prose of the ancient texts reveals a world draped in the velvet shadows of mystery."
+
+  - name: "Minimalist / Sparse"
+    short_name: "minimalist_sparse"
+    characterization: |
+      This diction is stripped of all extraneous 'fluff,' relying on strong, simple verbs and nouns to convey meaning with maximum impact. 
+      It creates a clean, punchy, and often haunting effect by leaving the majority of the subtext to the reader's imagination.
+    examples:
+      - "Play or die. There is no middle ground in the desert of the real."
+      - "The dice fell onto the stone floor. The famine would continue for another year."
+      - "Hunger won the day. The games were the only food they had left to eat."
+      - "The screen went dark. The game ends here. Silence followed the light."
+
+  - name: "Technical / Jargon-heavy"
+    short_name: "technical_jargon"
+    characterization: |
+      This approach is strictly focused on industry-specific terminology and functional accuracy. 
+      It communicates high-level expertise to fellow professionals while effectively excluding those who lack the requisite technical background.
+    examples:
+      - "The asynchronous latency issues were mitigated by implementing a more robust client-side prediction model."
+      - "Procedural generation algorithms are utilizing a modified Perlin noise function for terrain heightmaps."
+      - "Heuristic evaluation methods were applied to the UI to identify friction points in the user journey."
+      - "The engine utilizes a non-deterministic finite automata to handle complex NPC state transitions."
+
+  - name: "Archaic / Victorian"
+    short_name: "archaic_victorian"
+    characterization: |
+      This style employs formal, old-fashioned language and sentence structures reminiscent of 19th-century literature. 
+      It feels disciplined, manners-focused, and slightly stiff, evoking a world of parlor rooms, social hierarchies, and moral gravity.
+    examples:
+      - "One must endeavor to play with the utmost seriousness if one is to derive any true benefit from the exercise."
+      - "Pray, consider the outcome of our previous engagement before you commit to such a perilous course of action."
+      - "It was a most curious diversion, yet I fear it lacked the moral fiber required of a gentleman's pursuit."
+      - "Upon further reflection, I found myself quite taken with the ingenuity of the Lydian survival strategy."
+
+  - name: "Commercial / Buzzword-rich"
+    short_name: "commercial_buzzword"
+    characterization: |
+      This diction uses high-energy, marketing-driven language designed to sell an idea, product, or lifestyle. 
+      It is relentlessly optimistic, fast-paced, and focuses on 'disruption,' 'innovation,' and 'scalability' to capture consumer attention.
+    examples:
+      - "Experience the next-gen immersive world that is completely redefining what it means to be a social gamer."
+      - "Our disruptive social mechanics are creating viral engagement loops that scale across every major platform."
+      - "We provide scalable engagement solutions for brands looking to pivot into the emerging metaverse market."
+      - "Gamified monetization funnels are the key to unlocking consistent revenue growth in the current mobile landscape."
+
+  - name: "Gritty / Street"
+    short_name: "gritty_street"
+    characterization: |
+      This language is raw and unpolished, focusing on the harsh, unvarnished realities of survival. 
+      It uses hard-edged nouns and avoids any sense of idealism or comfort, reflecting the 'toughness' of its environment.
+    examples:
+      - "There was fresh blood on the asphalt, but in this neighborhood, you just keep walking and don't look back."
+      - "The concrete grind wears you down until there’s nothing left but the urge to get one over on the system."
+      - "Scraping for survival in the gutter doesn't leave much room for high-minded talk about the future."
+      - "It’s a tough-luck reality where the only thing that matters is if you've got enough left to pay the rent."
+
+  - name: "Celestial / Numinous"
+    short_name: "celestial_numinous"
+    characterization: |
+      This style utilizes language that touches on the divine, the cosmic, or the supernatural. 
+      It evokes a profound sense of awe, radiant light, and infinite scale, framing the subject as something beyond human comprehension.
+    examples:
+      - "The eternal digital heavens opened up, revealing a vista of pure, unadulterated light."
+      - "The starlight of discovery guided us through the vast, empty reaches of the virtual cosmos."
+      - "An infinite ludic grace descended upon the players, lifting them above their earthly troubles."
+      - "To design a world is to exercise a god-like agency that ripples through the fabric of the universe."
+
+  - name: "Violent / Aggressive"
+    short_name: "violent_aggressive"
+    characterization: |
+      This diction uses sharp, forceful words to convey intense conflict, power, and disruption. 
+      It creates a high-tension atmosphere where every sentence feels like a strike and every idea is a weapon.
+    examples:
+      - "We are shattering the status quo with a hammer made of code and revolutionary intent."
+      - "The author is butchering the traditional narrative to make room for a more visceral, interactive experience."
+      - "Violent player retention tactics are being used to trap users in a cycle of endless digital combat."
+      - "The hostile takeover of reality began not with a bang, but with the quiet click of a mouse button."
+
+  - name: "Euphemistic / Soft"
+    short_name: "euphemistic_soft"
+    characterization: |
+      This style avoids harsh or unpleasant truths by using gentle, indirect, and often vague language. 
+      It creates a 'safe' or sanitized environment for the reader, smoothing over conflict with polite abstractions.
+    examples:
+      - "The avatar entered a reduced vitality state following a series of unfortunate tactical interactions."
+      - "The studio is facilitating an involuntary career transition for several members of the design team."
+      - "We are initiating a resource reallocation phase to better align our output with current market realities."
+      - "Negative outcome mitigation is our top priority during this period of temporary structural instability."
+
+  - name: "Onomatopoeic / Sensory"
+    short_name: "onomatopoeic_sensory"
+    characterization: |
+      This approach focuses on the sounds, smells, and physical textures of the words themselves. 
+      It makes the writing feel physically present and immersive, as if the reader can hear or feel the text.
+    examples:
+      - "The rhythmic click-clack of the dice against the wooden table was the only sound in the silent room."
+      - "Sizzling digital sparks flew from the damaged terminal as the player initiated the override sequence."
+      - "The dull thud of the controller hitting the carpet signaled the end of a long, frustrating night of play."
+      - "The whispering pixels on the screen seemed to hum with a secret, electric energy of their own."
+
+  - name: "Legalistic / Formal"
+    short_name: "legalistic_formal"
+    characterization: |
+      This diction is modeled after the precision and structure of law and contracts. 
+      It focuses on strict definitions, conditions, and logical exclusions, making the writing feel binding, serious, and highly authoritative.
+    examples:
+      - "Notwithstanding any previous clauses to the contrary, the player retains full ownership of all virtual assets."
+      - "The binding ludic agreements between the user and the platform are subject to immediate termination upon breach."
+      - "The aforementioned player did knowingly and with intent bypass the established security protocols of the server."
+      - "All actions within the game world are subject to the overarching terms of reality and local jurisdiction."
+
+  - name: "Nautical / Maritime"
+    short_name: "nautical_maritime"
+    characterization: |
+      This style draws metaphors from the sea, ships, navigation, and the vastness of the ocean. 
+      It suggests a journey of discovery, the danger of the unknown, and the skill required to steer through fluid forces.
+    examples:
+      - "Navigating the digital tides requires a keen eye and a steady hand on the rudder of the narrative."
+      - "We are steering through a chaos of information, searching for a safe harbor in the storm of content."
+      - "An vast ocean of content awaits those brave enough to set sail from the shores of the familiar."
+      - "Charting the future of gaming is like mapping a shoreline that shifts with every crashing wave of technology."
+
+  - name: "Architectural / Structural"
+    short_name: "architectural_structural"
+    characterization: |
+      This approach focuses on how things are built, using vocabulary related to foundations, frameworks, and deliberate design. 
+      It implies stability, intentionality, and a deep understanding of the 'bones' beneath the surface of a project.
+    examples:
+      - "The foundation of engagement must be laid deep in the soil of human psychology before any play can begin."
+      - "We are scaffolding the user experience to ensure that the player never feels lost in the vastness of the world."
+      - "These blueprints for fun reveal a structural integrity that has been missing from recent industry releases."
+      - "The game stands as a monument of code, a towering achievement of logic and aesthetic vision combined."
+
+  - name: "Biological / Organic"
+    short_name: "biological_organic"
+    characterization: |
+      This style uses the language of nature, biological growth, and the complex systems of the human body. 
+      It suggests that systems are alive, evolving, and interconnected in a web of symbiotic relationships.
+    examples:
+      - "The evolving game loops are beginning to exhibit signs of a self-sustaining, organic ecosystem."
+      - "A symbiotic player relationship is at the heart of every successful community-driven platform."
+      - "The genetic code of play is written in the DNA of our ancestors, waiting to be expressed in new forms."
+      - "Nurturing the community is a delicate process of pruning toxicity while feeding the roots of creativity."
+
+  - name: "Mathematical / Precise"
+    short_name: "mathematical_precise"
+    characterization: |
+      This diction treats ideas as equations, focusing on ratios, formal logic, and empirical proof. 
+      It feels indisputable and cold, stripped of emotional bias to reveal the raw numerical truth of a situation.
+    examples:
+      - "The ratio of fun to effort must remain above a specific threshold to ensure continued user engagement."
+      - "We observed a logarithmic growth of skill as the player moved through the increasingly complex levels."
+      - "The equation of satisfaction is a delicate balance of challenge, reward, and perceived agency."
+      - "Life in the famine was a zero-sum reality where every calorie gained was a point of life sustained."
+
+  - name: "Culinary / Flavorful"
+    short_name: "culinary_flavorful"
+    characterization: |
+      This approach uses words associated with cooking, taste, hunger, and the visceral experience of eating. 
+      It makes abstract ideas feel 'delicious,' 'bitter,' or 'savory,' grounding the intellect in the senses.
+    examples:
+      - "The designer has created a recipe for disaster by mixing high stakes with poorly balanced mechanics."
+      - "Savoring the victory is only possible if you have first tasted the bitter gall of a thousand defeats."
+      - "The bitter taste of defeat lingered on the tongue long after the game over screen had faded to black."
+      - "The new expansion is a feast for the senses, offering a smorgasbord of new worlds to explore and devour."
+
+  - name: "Academic / Pedantic"
+    short_name: "academic_pedantic"
+    characterization: |
+      This style employs high-level intellectual language that focuses on categorization, theory, and precise citation. 
+      It can feel highly instructional and rigorous, though it occasionally drifts into being overly formal or condescending.
+    examples:
+      - "Theoretical ludic frameworks suggest that the internal motivation of the player is the primary driver of agency."
+      - "The pedagogical value of play is often overlooked by those who view gaming as a mere frivolous diversion."
+      - "A structuralist analysis of the narrative reveals a recurring motif of the 'starving king' across multiple cultures."
+      - "It is a categorical imperative for the designer to respect the autonomy of the user within the simulated space."
+
+  - name: "Kinetic / Action-oriented"
+    short_name: "kinetic_action"
+    characterization: |
+      This diction focuses on movement, speed, physical force, and the expenditure of energy. 
+      It makes the prose feel fast-paced and urgent, as if the words themselves are in a state of constant motion.
+    examples:
+      - "The player is hurling toward the finish line, fueled by a frantic burst of adrenaline and desperation."
+      - "We are propelling the narrative forward with a series of high-octane events that never let the reader breathe."
+      - "Driving the player toward the objective requires a careful application of both pressure and momentum."
+      - "Sprinting through the levels, the user barely has time to register the beauty of the world they are destroying."
+
+  - name: "Nostalgic / Sepia"
+    short_name: "nostalgic_sepia"
+    characterization: |
+      This language evokes the past with warmth, longing, and a palpable sense of loss. 
+      It feels 'aged' and deeply sentimental, as if looking at a world through a faded, sepia-toned photograph.
+    examples:
+      - "We yearn for the golden age of arcades, when the air was thick with the scent of ozone and possibility."
+      - "A faded memory of 8-bit adventures still flickers in the minds of those who grew up in the digital dawn."
+      - "The echoes of the schoolyard can still be heard in the quiet moments between the loading screens."
+      - "It was a taste of yesterday's joy, a simple pleasure that has been lost in the complexity of the modern age."
+
+  - name: "Cynical / Jaded"
+    short_name: "cynical_jaded"
+    characterization: |
+      This is the language of the weary and the distrustful, assuming the worst of motives and the hollowest of rewards. 
+      It feels 'over it' and intellectually unimpressed, stripping the veneer off of corporate or social promises.
+    examples:
+      - "It is just another hollow Skinner box designed to milk the player of their time and their meager savings."
+      - "They keep selling us the same plastic rewards and expecting us to act like they've given us the world."
+      - "The industry is currently focused on selling boredom as fun, provided you pay enough for the premium pass."
+      - "We've seen these tired marketing tropes a thousand times, and they get less convincing every single year."
+
+  - name: "Whimsical / Playful"
+    short_name: "whimsical_playful"
+    characterization: |
+      This style is lighthearted and imaginative, refusing to take itself seriously even when discussing important topics. 
+      It uses bounce, charm, and unexpected word choices to keep the reader engaged and smiling.
+    examples:
+      - "A sprinkle of digital magic is all it takes to turn a boring afternoon into a grand, pixelated quest."
+      - "We are bouncing through the clouds on the back of a dragon made entirely of neon light and good vibes."
+      - "Come and join the joyous pixel party, where the only rule is that there are absolutely no rules at all."
+      - "With a wink-and-a-nod design sensibility, the game reminds us that the point of play is simply to have fun."
+
+  - name: "Militaristic / Regimental"
+    short_name: "militaristic_regimental"
+    characterization: |
+      This diction is focused on hierarchy, discipline, tactical combat, and the chain of command. 
+      It feels orderly, strict, and mission-driven, as if the prose is being delivered by a drill sergeant or a general.
+    examples:
+      - "We are deploying the latest update to all sectors of the player base with maximum efficiency and zero downtime."
+      - "Strategic tactical play is the only way to ensure that the mission parameters are met before the deadline."
+      - "Command and control must be maintained at all times to prevent the total breakdown of the social hierarchy."
+      - "Fall in for the quest, soldiers, because the battle for the high ground is about to begin in earnest."
+
+  - name: "Theological / Sacred"
+    short_name: "theological_sacred"
+    characterization: |
+      This language treats the subject matter with religious reverence, framing ideas as dogmas, rituals, or spiritual truths. 
+      It elevates the topic to a plane of ultimate significance, suggesting that play is a form of worship or soul-work.
+    examples:
+      - "We preach the gospel of game design to those who are lost in the desert of a meaningless reality."
+      - "There is a sacred bond between players that transcends the boundaries of the digital and the physical."
+      - "The ritual of the daily quest provides a sense of purpose and structure to the lives of the faithful."
+      - "The programmer was baptized in code, emerging from the screen with a new vision of the possible."
+
+  - name: "Digital / Algorithmic"
+    short_name: "digital_algorithmic"
+    characterization: |
+      This is the cold, binary-focused language of the computer, treating humans as data points and emotions as variables. 
+      It feels 'rendered' rather than written, prioritizing logic, efficiency, and computational output above all else.
+    examples:
+      - "The system is currently processing user input to generate the most efficient path toward the reward state."
+      - "Outputting the optimal amount of fun requires a constant adjustment of the difficulty curve variables."
+      - "The binary choice architecture of the game leaves no room for the messy ambiguity of human emotion."
+      - "We are monitoring the algorithmic social health of the server to ensure maximum productivity for all units."
+
+  - name: "Rural / Pastoral"
+    short_name: "rural_pastoral"
+    characterization: |
+      This is the language of the countryside—quiet, slow, and deeply rooted in the rhythms of the earth. 
+      It evokes peace, simplicity, and a connection to nature that is often missing from the high-tech modern world.
+    examples:
+      - "Harvesting digital wheat in the quiet of the morning provides a sense of peace that no combat can match."
+      - "In the fields of quiet play, the only thing that matters is the slow turning of the seasons and the sun."
+      - "The roots of the community are buried deep in the soil of mutual respect and shared, quiet labor."
+      - "We designed a slow-grown experience that rewards the player for simply sitting still and watching the world."
+
+  - name: "Urban / Industrial"
+    short_name: "urban_industrial"
+    characterization: |
+      This style is hard, fast-paced, and filled with the imagery of cities, machines, and mass production. 
+      It feels noisy, crowded, and relentlessly productive, reflecting the grinding energy of a metropolitan hub.
+    examples:
+      - "The steel-grey game worlds of the future are built on a foundation of iron, steam, and endless labor."
+      - "Metropolitan social hubs are the beating heart of the digital city, where millions of players collide every day."
+      - "The machinery of fun is constantly turning, churning out new experiences for the hungry masses below."
+      - "We are paving the way forward with a new industrial standard for what a social game can truly achieve."
+
+  - name: "Cinematic / Visual"
+    short_name: "cinematic_visual"
+    characterization: |
+      This approach focuses on lighting, camera angles, wide-screen imagery, and the visual language of film. 
+      It makes the reader 'see' the text as if they are watching a high-budget movie, emphasizing spectacle and perspective.
+    examples:
+      - "A panoramic vista of play stretched out before the camera, bathed in the golden light of a setting sun."
+      - "The lens flares of victory blinded the player as the final boss fell into the abyss in slow motion."
+      - "Zooming into the detail of the character's face, we can see the micro-expressions of fear and determination."
+      - "As the credits roll, the screen begins fading to black, leaving the audience in a state of quiet contemplation."
+
+  - name: "Abstract / Conceptual"
+    short_name: "abstract_conceptual"
+    characterization: |
+      This diction deals in ideas that have no physical form, focusing on the philosophical 'why' rather than the 'what.' 
+      It is 'heady' and intellectual, exploring the essence of concepts like agency, flow, and the nature of reality.
+    examples:
+      - "The essence of agency is found in the space between the player's intent and the system's response."
+      - "The concept of flow is the holy grail of design, a state where time and self-consciousness simply vanish."
+      - "The ideation of mechanics must always begin with a deep understanding of the human need for structure."
+      - "We are engaging in pure ludic thought, stripped of the distractions of graphics, sound, and interface."
+
+  - name: "Empirical / Factual"
+    short_name: "empirical_factual"
+    characterization: |
+      This style relies entirely on what can be proven, measured, and documented. 
+      It avoids 'maybe' and 'perhaps' in favor of 'is' and 'was,' grounding its authority in the hard data of experience.
+    examples:
+      - "We have officially crossed the 3 billion hour mark in terms of total weekly global engagement with games."
+      - "Evidence shows that play has been a fundamental component of human civilization for over three millennia."
+      - "Fact-based design is the only way to ensure that our conclusions are grounded in the reality of the user."
+      - "The documented historical use of games as a survival strategy is a matter of record in Herodotus' text."
+
+  - name: "Allegorical / Mythic"
+    short_name: "allegorical_mythic"
+    characterization: |
+      This style frames the subject as part of a grander, timeless story or a classic hero's journey. 
+      It makes the modern world feel larger than life, suggesting that our daily struggles are echoes of ancient myths.
+    examples:
+      - "The odyssey of the gamer is a modern retelling of the search for a home in a world that is broken."
+      - "A modern myth of hunger is being written in the code of our games, reflecting our deepest primal fears."
+      - "The heroic sacrifice for points is a digital echo of the sacrifices made by our ancestors to the gods."
+      - "We are all fighting the dragon of reality, using our controllers as swords in the battle for our own souls."
+
+  - name: "Satirical / Ironical"
+    short_name: "satirical_ironical"
+    characterization: |
+      This style uses humor, irony, and sharp exaggeration to criticize a subject or highlight its absurdity. 
+      It often says one thing while meaning the opposite, forcing the reader to see the hidden contradictions in a situation.
+    examples:
+      - "It was a very efficient starvation, managed with the kind of precision that only a true bureaucrat could admire."
+      - "The 'privilege' of grinding for sixteen hours a day is one that our ancestors would surely have envied."
+      - "We are truly enjoying the broken world, provided we have a high-speed internet connection and a comfortable chair."
+      - "It is such a 'productive' waste of time that we've decided to build an entire multi-billion dollar industry around it."
+
+  - name: "Melancholic / Somber"
+    short_name: "melancholic_somber"
+    characterization: |
+      This diction is heavy with sadness, quiet reflection, and a sense of mourning for what has been lost. 
+      It focuses on the cracks in the world, the shadows in the room, and the quiet ache of an unfulfilled life.
+    examples:
+      - "The quiet ache of reality is most palpable in the moments after the console has been turned off for the night."
+      - "We are mourning the lost hours of our youth, spent in pursuit of a light that was never truly there."
+      - "A somber reflection on the state of the world reveals a landscape that is as beautiful as it is broken."
+      - "The shadows of the arcade are filled with the ghosts of a thousand dreams that never quite came true."
+
+  - name: "Urgent / Emergency"
+    short_name: "urgent_emergency"
+    characterization: |
+      This is the language of crisis, high-pressure situations, and immediate demands for attention. 
+      It feels like a siren, a countdown, or a shouting voice, insisting that the reader act before it is too late.
+    examples:
+      - "The tipping point is imminent, and we must choose our path before the opportunity vanishes forever."
+      - "Reality is failing now, and we are the only ones with the tools required to initiate a total system repair."
+      - "Act before the exit from reality becomes permanent and we lose our connection to the physical world entirely."
+      - "A critical system error has been detected in our social fabric, and the countdown to collapse has already begun."
+
+  - name: "Lazy / Colloquial"
+    short_name: "lazy_colloquial"
+    characterization: |
+      This is a relaxed, ungrammatical, and highly informal style that mimics casual speech between close friends. 
+      It avoids all pretense and intellectual weight, choosing instead to be 'real' and unpolished in its delivery.
+    examples:
+      - "I’ve basically just been gaming all day because honestly, what else is there to even do right now?"
+      - "Everything is kinda broken, right? It's like the world just stopped making sense a long time ago."
+      - "Dunno why it works, but people seem to really like hitting the buttons and seeing the numbers go up."
+      - "It's pretty much just play at this point; nobody's really taking the 'real world' stuff seriously anymore."
+
+  - name: "Diplomatic / Measured"
+    short_name: "diplomatic_measured"
+    characterization: |
+      This style is carefully balanced, avoiding strong emotional language or taking sides in a debate. 
+      It seeks the middle ground, using 'soft' transitions and qualifying phrases to maintain an air of reasonableness and calm.
+    examples:
+      - "One might argue that both positions have their merits, depending on the specific context of the situation."
+      - "A balanced perspective requires us to look at the data while also considering the human element of the problem."
+      - "We are carefully considering our options before we make a final determination on the future of the project."
+      - "Moderate engagement levels are generally seen as a positive indicator of long-term community stability."
+
+  - name: "Brutalist / Raw"
+    short_name: "brutalist_raw"
+    characterization: |
+      This approach is uncomfortable, stark, and intentionally unpolished, avoiding all sense of beauty or comfort. 
+      It exposes the 'raw concrete' of an argument, presenting hard truths without any attempt to soften the blow.
+    examples:
+      - "The hard truths of hunger cannot be hidden behind a layer of colorful pixels and upbeat sound effects."
+      - "This is the raw data of famine, and it shows exactly how much we are willing to sacrifice for a moment of peace."
+      - "Cold stone logic is the only thing that will save us when the emotional appeals have finally failed."
+      - "The brutal reality is that we are starving, and no amount of gaming is going to put real food on the table."
+
+  - name: "Sophomoric / Naive"
+    short_name: "sophomoric_naive"
+    characterization: |
+      This style is enthusiastic and energetic but lacks deep experience or critical perspective. 
+      It feels young, overly simplistic, and eager to please, often treating complex problems with an 'easy' optimism.
+    examples:
+      - "I think games are just the best thing ever, and they can totally solve every problem in the whole world."
+      - "We should try fixing everything with fun, because if everyone was happy, there wouldn't be any more wars."
+      - "This is the coolest idea ever, and I can't wait to see how many points I can get in the next level."
+      - "Wow, people spend so many hours playing! That must mean that games are the most important thing in history."
+
+  - name: "Aristocratic / Haughty"
+    short_name: "aristocratic_haughty"
+    characterization: |
+      This diction utilizes language that implies high social status, intellectual superiority, or an elite perspective. 
+      It is polished, distant, and slightly disdainful of anything it considers 'common' or beneath its notice.
+    examples:
+      - "It is a common pursuit of play that lacks the refinement required for a truly discerning intellectual mind."
+      - "The higher forms of gaming are reserved for those who have the patience and the breeding to appreciate them."
+      - "Distinguished designers do not concern themselves with the base desires of the unwashed casual masses."
+      - "One must possess a superior ludic taste to understand why this specific mechanic is so profoundly elegant."
+
+  - name: "Revolutionary / Radical"
+    short_name: "revolutionary_radical"
+    characterization: |
+      This style calls for the total overthrow of the existing system, using bold and defiant language. 
+      It is focused on the 'new,' the 'untested,' and the 'radical,' urging the reader to join a movement for change.
+    examples:
+      - "We must shatter the reality scale and build a new world on the ruins of the old, broken systems."
+      - "A radical redesign of the human experience is the only way to escape the trap of the modern age."
+      - "An uprising of the players is beginning, and it will not stop until the designers have been held accountable."
+      - "Revolutionizing life is not a hobby; it is a necessity for those who refuse to live in a broken world."
+
+  - name: "Stoic / Emotionless"
+    short_name: "stoic_emotionless"
+    characterization: |
+      This style accepts reality as it is, without complaint, celebration, or emotional display. 
+      It focuses on duty, endurance, and the hard facts of existence, delivered with a flat, unwavering tone.
+    examples:
+      - "Accepting the eighteen-year famine was the only logical course of action for a people with no other options."
+      - "Enduring the grind is a necessary part of the process, and we shall continue until the task is complete."
+      - "A steady hand of play is required to navigate the difficulties of life without losing one's internal balance."
+      - "The plan was executed without complaint or hope, for neither emotion would have changed the eventual outcome."
+
+  - name: "Romantic / Idealized"
+    short_name: "romantic_idealized"
+    characterization: |
+      This approach focuses on the inherent beauty, passion, and perfection of an idea or a relationship. 
+      It ignores flaws and practical limitations to focus on the 'dream' and the emotional truth of the subject.
+    examples:
+      - "We are building a perfect world of play where every heart can find its true home and its greatest purpose."
+      - "Our infinite love of gaming is what keeps us moving forward through even the darkest and coldest nights."
+      - "The dream of a fixed world is a radiant vision that guides every line of code and every brushstroke of art."
+      - "A radiant ludic spirit is the only thing that can truly heal the wounds of a broken and tired reality."
+
+  - name: "Gothic / Macabre"
+    short_name: "gothic_macabre"
+    characterization: |
+      This style focuses on death, decay, the dark side of the human psyche, and the supernatural. 
+      It is atmospheric, unsettling, and often uses imagery of ghosts, tombs, and the 'unseen' to create a sense of dread.
+    examples:
+      - "The ghost in the machine is a haunting reminder of the lives that have been lost in the pursuit of a high score."
+      - "We are living in a decaying world of reality, where the only thing that flourishes is the mold on the walls."
+      - "There is a macabre hunger of souls in this digital space, an urge to consume that can never be fully satisfied."
+      - "Haunted by the game, the player finds themselves unable to distinguish between the living and the rendered."
+
+  - name: "Socratic / Inquisitive"
+    short_name: "socratic_inquisitive"
+    characterization: |
+      This diction is built entirely around questions, challenges, and the pursuit of truth through constant dialogue. 
+      It refuses to provide easy answers, instead forcing the reader to examine their own assumptions and biases.
+    examples:
+      - "Is reality truly broken, or is it merely our perception of it that has failed to keep pace with change?"
+      - "What is hunger, really, if not the engine that drives us to create something better than what we have?"
+      - "Why do we play, and what does our choice of games say about the secret desires of our collective soul?"
+      - "Who is the designer of our lives, and have we ever stopped to ask if we agree with the rules they have set?"
+
+  - name: "Optimistic / Radiant"
+    short_name: "optimistic_radiant"
+    characterization: |
+      This is unrelentingly positive language, focused on potential, light, and the belief that the future will be better. 
+      It assumes that every problem has a solution and that humanity is on an upward trajectory toward greatness.
+    examples:
+      - "The bright future of fun is just over the horizon, and we are leading the way toward a more joyous world."
+      - "Radiant possibilities are blooming in every corner of the gaming world, offering us a chance to shine."
+      - "We are building a better world, one game at a time, and the results are already beginning to show."
+      - "The sunshine of engagement is the best cure for the shadows of a broken and lonely reality."
+
+  - name: "Existential / Heavy"
+    short_name: "existential_heavy"
+    characterization: |
+      This style focuses on the fundamental meaning of life, the inevitability of death, and the weight of personal existence. 
+      It feels profound, deeply serious, and often explores the 'void' that lies beneath the surface of everyday life.
+    examples:
+      - "The weight of lost hours hangs heavy on the soul, a reminder of the time that can never be reclaimed."
+      - "Finding meaning in a void is the ultimate challenge of the human condition, whether in a game or in life."
+      - "The burden of play is a heavy one, for it requires us to take responsibility for the worlds we inhabit."
+      - "Existence is the game that none of us chose to play, yet it is the only one that truly matters in the end."

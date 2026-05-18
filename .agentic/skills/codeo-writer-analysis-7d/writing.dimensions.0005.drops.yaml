@@ -1,0 +1,616 @@
+# maintainer: starlight.ai
+# author: starlight.ai
+# date: May 18, 2026
+# version: v0.0.3
+# purpose: context independent analysis dimension for starlight codeo seven dimension writing sample analysis
+# changelog:
+#  v0.0.2 => structured to maintain readability across multiple document subsystems
+#  v0.0.3 => added header for May 18th, 2026 public publication
+
+dimension: "Punctuation for Emphasis (Logic Drops)"
+short_name: "logic_drops"
+definition: |
+  Punctuation for Emphasis manages the visual and rhythmic cadence of the prose. It uses 
+  orthographic marks not just for grammar, but as strategic "logic drops"—interruptions 
+  that signal tone, authority, or emotional state. This module controls the "staccato" 
+  or "legato" of the reader’s internal monologue.
+
+values:
+  - name: "Colon Verdicts"
+    short_name: "colon_verdicts"
+    characterization: |
+      The author's default rhythmic move. It uses a colon to deliver a sharp, undeniable 
+      conclusion after a buildup, creating a sense of "promise and fulfillment" in every 
+      sentence.
+    examples:
+      - "The data on the three billion hours of play points to one inescapable reality: we are a species in the middle of a massive, voluntary exodus."
+      - "The ancient Lydians didn't just invent games to pass the time: they invented a psychological technology for survival."
+      - "We are looking for something that the physical world can no longer provide: a fair chance to be the hero of our own lives."
+
+  - name: "Em-Dash Parentheticals"
+    short_name: "em_dash_parentheticals"
+    characterization: |
+      Used to inject sudden energy or necessary context into the middle of a thought. 
+      The em-dash acts as a high-speed interruption that broadens the scope without 
+      breaking the forward momentum of the sentence.
+    examples:
+      - "The move toward virtual worlds—a migration larger than any in human history—is happening right under the noses of the people meant to be leading us."
+      - "We are trading our physical presence—the slow, heavy labor of the real world—for the light-speed agency of the digital avatar."
+      - "The game offers a perfect meritocracy—something the real world has failed to deliver for centuries—where every effort is met with a fair reward."
+
+  - name: "Semicolon Balance"
+    short_name: "semicolon_balance"
+    characterization: |
+      Creates a sophisticated, balanced relationship between two independent but 
+      equal ideas. It suggests a world of duality where every historical fact 
+      is mirrored by a modern psychological truth.
+    examples:
+      - "The Lydians played to forget their hunger; we play to remember our power."
+      - "Reality is broken by its own lack of design; the simulation is made whole by its internal logic."
+      - "The old gods lived on the mountain; the new gods live in the server."
+
+  - name: "Ellipsis Drift..."
+    short_name: "ellipsis_drift"
+    characterization: |
+      Signals a thought that is trailing off into the unknown or a realization 
+      that is too large to be fully captured. It invites the reader to lean in 
+      and fill the silence with their own sense of awe or dread.
+    examples:
+      - "We are standing at the edge of a new world, looking into a digital horizon that has no visible end..."
+      - "If three billion people have already left reality, we have to wonder who will be left to turn out the lights..."
+      - "The dice are still rolling, falling through five thousand years of history toward a conclusion we can't yet see..."
+
+  - name: "Exclamation Punch!"
+    short_name: "exclamation_punch"
+    characterization: |
+      A sudden burst of enthusiasm or urgent realization. It is used sparingly 
+      to mark the most radical "Truth-Bombs" in the text, forcing the reader 
+      to acknowledge the magnitude of the claim.
+    examples:
+      - "This isn't just a hobby; it is the redesign of the human spirit!"
+      - "The famine of engagement is real, and the game is the only cure we’ve ever found!"
+      - "We are finally becoming the gods we always dreamed of being!"
+
+  - name: "Question Mark Doubts?"
+    short_name: "question_mark_doubts"
+    characterization: |
+      Turns the author into a seeker or a cross-examiner. It uses the question 
+      as a tool to destabilize the reader's assumptions about reality and 
+      force them into a state of active inquiry.
+    examples:
+      - "If reality is so great, why are three billion people working so hard to leave it?"
+      - "What happens to a civilization when its most talented members decide the physical world isn't worth their time?"
+      - "Is it possible that the ancient Lydians were more advanced than we are when it comes to psychological survival?"
+
+  - name: "Bracketed Meta-commentary [ ]"
+    short_name: "bracketed_meta"
+    characterization: |
+      A "whisper" to the reader that steps outside the primary argument. It 
+      allows the author to acknowledge their own process, cite a hidden 
+      thought, or provide a technical aside without cluttering the prose.
+    examples:
+      - "The data on engagement is overwhelming [see the 2024 Stanford report for the full breakdown of cortisol levels]."
+      - "We are building a world that actually works [unlike the one you’re currently sitting in]."
+      - "The Lydians understood the power of the game [a fact that historians have ignored for far too long]."
+
+  - name: "Quotation Irony \" \""
+    short_name: "quotation_irony"
+    characterization: |
+      Used to signal that a word or concept is being used mockingly or 
+      skeptically. It creates a distance between the author and traditional 
+      definitions of things like "real work" or "productive society."
+    examples:
+      - "We are told to return to 'productive' society, as if the physical world has produced anything but exhaustion lately."
+      - "The 'experts' claim that gaming is an escape, ignoring the fact that reality is the thing we are escaping from."
+      - "People call it a 'waste of time,' but they have no problem spending eight hours a day in a cubicle doing nothing."
+
+  - name: "Bulleted Logic"
+    short_name: "bulleted_logic"
+    characterization: |
+      Breaks a complex argument down into digestible, high-impact points. It 
+      gives the prose the "feel" of a manifesto or a tactical brief, 
+      prioritizing clarity and rapid-fire comprehension.
+    examples:
+      - "To fix reality, we need three things:
+         * Meaningful work that offers clear rewards.
+         * Social structures that actually value human connection.
+         * The ability to fail without being destroyed by the system."
+      - "The Lydian strategy was simple:
+         * Play every other day.
+         * Eat only when you don't play.
+         * Repeat for eighteen years."
+      - "The digital exodus is driven by:
+         * Declining real-world opportunities.
+         * Increasing virtual agency.
+         * The fundamental human need for epic meaning."
+
+  - name: "Numbered Steps"
+    short_name: "numbered_steps"
+    characterization: |
+      Similar to bullets, but with a sense of sequence and inevitability. 
+      It frames the transition from reality to game as an orderly, 
+      step-by-step process that can be mastered.
+    examples:
+      - "1. Acknowledge that reality is broken. 2. Identify the game mechanics that fix it. 3. Build the new world."
+      - "The evolution of play: 1. The bone dice. 2. The board game. 3. The virtual world."
+      - "How to survive a famine: 1. Stop eating. 2. Start playing. 3. Wait for the harvest."
+
+  - name: "Italics for *Emphasis*"
+    short_name: "italics_emphasis"
+    characterization: |
+      Provides the "vocal stress" in the reader's head. It highlights the 
+      central verb or noun in a claim to ensure the specific nuance of the 
+      argument isn't missed.
+    examples:
+      - "The game isn't just an escape; it is a *reclamation* of the human spirit."
+      - "We don't just want to win; we want to feel *powerful* in a world that makes us feel small."
+      - "It is not that reality is bad; it is that reality is *broken*."
+
+  - name: "Caps for SHOUTING"
+    short_name: "caps_shouting"
+    characterization: |
+      Used for absolute emphasis or to signal the "Voice of the System." 
+      It creates a visual shock on the page that demands total attention 
+      for a single word or phrase.
+    examples:
+      - "The one thing we can no longer ignore is that the EXODUS is already happening."
+      - "The game is over. It is time to START a new one."
+      - "This is not a drill; it is the TOTAL redesign of our civilization."
+
+  - name: "Comma-heavy (Breathing)"
+    short_name: "comma_heavy"
+    characterization: |
+      Creates a slow, deliberate, and thoughtful pace. The frequent commas 
+      force the reader to pause and consider each component of the 
+      thought, building a sense of complex, layered truth.
+    examples:
+      - "The dice, carved from bone, tossed by hand, held a power, a magic, that we are only now, five millennia later, beginning to understand."
+      - "We are, in every sense of the word, a playing animal, a species that, when faced with lack, chooses to dream, to build, and to win."
+      - "The exodus, silent and vast, is not a retreat, but a migration, a collective move toward a light that, for once, actually promises warmth."
+
+  - name: "Minimalist (No punctuation)"
+    short_name: "minimalist_no_punct"
+    characterization: |
+      A flat, urgent delivery that removes all breathing room. It creates a 
+      sense of unstoppable momentum or a cold, machine-like factualness 
+      where the words rush together into a single strike.
+    examples:
+      - "The world ends not with a bang but with a log in."
+      - "Eat play sleep repeat until the famine ends or the game becomes real."
+      - "Three billion people and counting leaving reality behind forever without looking back once."
+
+  - name: "Fragmented (Periods everywhere)"
+    short_name: "fragmented_periods"
+    characterization: |
+      Staccato delivery. Each word or short phrase becomes a complete thought, 
+      creating a feeling of high tension, clarity, or a "downloading" of 
+      essential data points.
+    examples:
+      - "Reality. Is. Broken. We. Are. Fixing. It."
+      - "Eighteen years. Dice in hand. Hunger forgotten. Survival achieved."
+      - "The quest. The reward. The level. The life."
+
+  - name: "Slanted (Forward-slash)"
+    short_name: "slanted_slash"
+    characterization: |
+      Used to show duality, choice, or the blurring of boundaries. It 
+      suggests that two things are actually one, or that the reader must 
+      constantly toggle between two states of being.
+    examples:
+      - "The player/citizen is the new unit of our digital/physical democracy."
+      - "We are caught in the loop of consumption/creation, trying to find the balance/breakthrough."
+      - "The game/life is the only thing worth fighting for/surviving."
+
+  - name: "Bold-faced Core"
+    short_name: "bold_faced_core"
+    characterization: |
+      Visually identifies the most important "Anchor" of a paragraph. It 
+      allows the reader to scan the page and still get the core message 
+      without reading every word.
+    examples:
+      - "The most important fact of the 21st century is the **mass migration to digital worlds**."
+      - "We play to survive because **reality is no longer designed for human success**."
+      - "The Lydians discovered that **play is a physiological necessity** during times of systemic lack."
+
+  - name: "Asterisked Notes*"
+    short_name: "asterisked_notes"
+    characterization: |
+      Creates a "sub-textual" layer of humor or cynical correction. It 
+      functions like a stage whisper that undercuts the main text or 
+      adds a "knowing" detail for the observant reader.
+    examples:
+      - "The physical world offers 'endless opportunity'* for those who already have all the money."
+      - "We are all perfectly happy with our 9-to-5 lives* as long as we have a level-80 character waiting at home."
+      - "The famine ended after eighteen years* but the Lydians never really stopped playing."
+
+  - name: "Paragraph Breaks (Visual white space)"
+    short_name: "paragraph_breaks"
+    characterization: |
+      Uses the space between paragraphs to create "Thinking Room." It 
+      separates the historical buildup from the modern conclusion, 
+      allowing the gravity of the argument to settle.
+    examples:
+      - "Herodotus tells us the Lydians played to survive eighteen years of famine.
+         
+         We are currently in year ten of our own famine of engagement."
+      - "Three billion hours a week is not just a number.
+         
+         It is a vote of no confidence in reality."
+      - "The dice were cast five thousand years ago.
+         
+         They haven't stopped rolling yet."
+
+  - name: "Single-sentence Paragraphs"
+    short_name: "single_sentence_para"
+    characterization: |
+      The ultimate "Logic Drop." It isolates a single thought to give it 
+      maximal authority and weight, forcing the reader to stop and 
+      confront the sentence on its own terms.
+    examples:
+      - "Reality is broken."
+      - "The exodus has begun."
+      - "Play is our only way out."
+
+  - name: "Run-on (Anxiety)"
+    short_name: "run_on_anxiety"
+    characterization: |
+      A frantic, breathless flow that mirrors the overwhelming nature 
+      of modern life or the sheer scale of the digital transition. 
+      It overwhelms the reader to make them feel the urgency.
+    examples:
+      - "We are logging in and leveling up and finding guilds and fighting dragons and building empires because the world outside is gray and the work is boring and the rewards are gone and we just can't take it anymore."
+      - "The data is pouring in and the hours are climbing and the servers are full and the streets are empty and everyone is asking what happened but the answer is right in front of them."
+      - "You wake up and check the screen and the quest is waiting and the people are there and you feel more real there than you do in the shower or on the bus or at your desk."
+
+  - name: "Periodic (Meaning at the end)"
+    short_name: "periodic_ending"
+    characterization: |
+      Builds a long, complex sentence where the core meaning is withheld 
+      until the final word. It creates a sense of suspense and a 
+      "payoff" for the reader's attention.
+    examples:
+      - "Despite the critics, despite the fear-mongering, and despite the refusal of our institutions to adapt, the truth remains: the game is winning."
+      - "Through eighteen years of hunger, through the dust of the ancient desert, and through the invention of the knuckle-bone dice, they survived."
+      - "Whether we are ready or not, whether we understand it or not, and whether we want it or not, the exodus is real."
+
+  - name: "Front-loaded (Meaning at start)"
+    short_name: "front_loaded"
+    characterization: |
+      Delivers the "Verdict" immediately and then spends the rest of the 
+      sentence explaining why. It is a high-authority posture that 
+      doesn't make the reader wait for the truth.
+    examples:
+      - "We are leaving reality because it is no longer a place where we can feel successful or connected."
+      - "Play is the most effective technology for human survival ever invented, as evidenced by the Lydian famine."
+      - "Three billion people are playing games every week because the physical world has failed to meet their core psychological needs."
+
+  - name: "Dashed—Sudden—Starts"
+    short_name: "dashed_starts"
+    characterization: |
+      Uses dashes at the beginning of a section to signal a sudden shift 
+      in perspective or a "jump-cut" in the narrative. It feels like 
+      being dropped into the middle of a live scene.
+    examples:
+      - "—And then, the screen flickered to life."
+      - "—Eighteen years later, the famine was over, but the games remained."
+      - "—Three billion hours. That was the number that changed everything."
+
+  - name: "Commas, for, dramatic, pause"
+    short_name: "commas_pause"
+    characterization: |
+      Uses "excessive" commas to create an artificial, theatrical rhythm. 
+      It’s a way of highlighting the gravity of every single word in 
+       a sequence of events.
+    examples:
+      - "The, game, is, the, only, thing, that, matters."
+      - "We, are, the, ones, who, build, the, future."
+      - "Wait, listen, look, and, understand: the, world, is, shifting."
+
+  - name: "Parentheses (Secret asides)"
+    short_name: "parentheses_secret"
+    characterization: |
+      Used for a quieter, more personal connection with the reader. It 
+      feels like a confidential remark made behind the back of the 
+      official argument.
+    examples:
+      - "We all know that 'real work' is just a way to pay for our 'real life' (which happens after 6:00 PM on a server in Iceland)."
+      - "The ancient Lydians were (arguably) the first true game designers."
+      - "The exodus is happening (and you’re already a part of it)."
+
+  - name: "Dual-Colon Structures"
+    short_name: "dual_colon"
+    characterization: |
+      A complex logic move where one verdict leads to an even deeper 
+      one. It creates a "telescoping" effect, drilling down into 
+      the heart of the truth.
+    examples:
+      - "The world is broken: the systems are failing: the game is the only solution."
+      - "We have a choice: stay in the physical world: or join the digital exodus."
+      - "Herodotus was right: the dice were a remedy: and we are still taking the medicine."
+
+  - name: "The Interrobang?!"
+    short_name: "interrobang"
+    characterization: |
+      Combines shock and inquiry. It is the punctuation of total 
+      disbelief, used when the data or history is so radical that 
+      the author literally cannot believe it.
+    examples:
+      - "Three billion hours a week and we’re still calling it a hobby?!"
+      - "How could we have missed the obvious connection between the Lydian famine and the modern exodus?!"
+      - "Wait, you’re telling me reality hasn't been updated in five thousand years?!"
+
+  - name: "Script-style (Dialogue)"
+    short_name: "script_style"
+    characterization: |
+      Breaks the prose into a dramatic exchange between characters or 
+      voices. It turns the argument into a play, making the conflict 
+      of ideas feel more personal and immediate.
+    examples:
+      - "SOCIETY: Why are you playing that game?
+         PLAYER: Because it’s the only place I can actually win."
+      - "ANCIENT LYDIAN: We have no bread.
+         MODERN GAMER: We have no meaning.
+         BOTH: Let’s roll the dice."
+      - "CRITIC: It’s just an escape.
+         DESIGNER: No, it’s a destination."
+
+  - name: "Ledger-style (Data)"
+    short_name: "ledger_style"
+    characterization: |
+      Presents information in a cold, list-like format that mirrors 
+      an accounting ledger or a character sheet. It emphasizes 
+      the "transactional" nature of reality and play.
+    examples:
+      - "Reality: 0 Rewards / 100 Effort
+         Game: 100 Rewards / 50 Effort
+         Decision: Log in."
+      - "Year 1: The famine begins.
+         Year 2: The dice are carved.
+         Year 18: The species survives."
+      - "Hours Played: 3,000,000,000
+         Lives Changed: All of them."
+
+  - name: "Mathematical symbols (+/-)"
+    short_name: "math_symbols"
+    characterization: |
+      Uses math logic to show the "calculation" behind the exodus. It 
+      suggests that the decision to leave reality is a simple matter 
+      of cost-benefit analysis.
+    examples:
+      - "Reality - Meaning = Famine."
+      - "Play + Community = Survival."
+      - "10,000 Hours + Clear Goal = Mastery."
+
+  - name: "Footnoted"
+    short_name: "footnoted_logic"
+    characterization: |
+      Uses traditional academic markers to anchor the prose in external 
+      authority. It creates a "two-track" reading experience where 
+      the main argument is supported by a foundation of evidence.
+    examples:
+      - "The Lydian strategy is well-documented in the historical record.¹"
+      - "The 'Flow' state is the primary engine of engagement in modern digital worlds.²"
+      - "We are currently witnessing the largest mass migration in human history.³"
+
+  - name: "Underlined Truths"
+    short_name: "underlined_truths"
+    characterization: |
+      Used for emphasis that is even more urgent than bolding. It signals 
+      a "law" or "rule" that the reader must memorize to understand 
+      the rest of the book.
+    examples:
+      - "<u>Reality is broken because it doesn't offer enough meaningful work.</u>"
+      - "<u>The game is not a distraction; it is a solution.</u>"
+      - "<u>We are a species that requires play to endure.</u>"
+
+  - name: "Strikethrough Errors"
+    short_name: "strikethrough_errors"
+    characterization: |
+      Visually "corrects" a common misconception in real-time. It 
+      shows the author’s process of dismantling old ideas and 
+      replacing them with new ones.
+    examples:
+      - "The goal of the game is ~~escape~~ transformation."
+      - "We are ~~wasting time~~ building a new world."
+      - "The real world is ~~the only place that matters~~ a failing system."
+
+  - name: "Cascading indents"
+    short_name: "cascading_indents"
+    characterization: |
+      Uses visual levels to show the "nesting" of ideas. It mirrors 
+      the hierarchical structure of a game (levels, quests, tasks) 
+      or a complex computer program.
+    examples:
+      - "The Epic Quest
+            The Regional Task
+                 The Individual Action"
+      - "Reality
+            Economy
+                 Labor"
+      - "Survival
+            Play
+                 Dice"
+
+  - name: "Centered Verse"
+    short_name: "centered_verse"
+    characterization: |
+      Breaks the flow of the argument to present a "holy" or 
+      mythic thought. By centering the text, it demands a 
+      slower, more contemplative reading pace.
+    examples:
+      - "
+        The dice fall in the dust
+        The hunger fades away
+        The game becomes the world
+        "
+      - "
+        Three billion hearts beat as one
+        In the light of the screen
+        Seeking the quest
+        "
+      - "
+        We are the Lydians now
+        Building our paradise
+        One level at a time
+        "
+
+  - name: "Justified Blocks"
+    short_name: "justified_blocks"
+    characterization: |
+      A formal, heavy block of text that looks like a solid wall of 
+      authority. It is used to present the most "solid" and 
+      unquestionable sections of the argument.
+    examples:
+      - "The data on human engagement shows a clear and irreversible trend toward virtual spaces. This is not a temporary phenomenon; it is a permanent shift in the way we spend our cognitive energy and find meaning."
+      - "Historical analysis of the Lydian famine reveals that play was the primary factor in their survival. Without the dice, the civilization would have collapsed under the weight of its own hunger."
+      - "Reality is failing to provide the four core psychological needs: satisfying work, the hope of success, social connection, and the chance to be part of something larger than ourselves."
+
+  - name: "Ragged Edges"
+    short_name: "ragged_edges"
+    characterization: |
+      Prose that feels informal, hand-written, or "under construction." 
+      It signals that the author is working through these ideas in 
+      real-time and invites the reader to join the process.
+    examples:
+      - "Maybe we’re all just looking for a way out. 
+         Maybe the game is the only thing that’s left.
+         I don't know yet, but I think we’re on to something."
+      - "The dice are rolling.
+         The people are leaving.
+         The world is changing."
+      - "We play because we have to.
+         We play because we want to.
+         We play because it works."
+
+  - name: "Hyphen-ated"
+    short_name: "hyphenated"
+    characterization: |
+      Links disparate words to create new, specialized concepts. It 
+      gives the prose a "technical/philosophical" feel, suggesting 
+      that we need a new vocabulary for our new reality.
+    examples:
+      - "We are living in a post-reality-simulation."
+      - "The engagement-loop-survival-strategy is our best hope."
+      - "The dice-throwers are the world-builders."
+
+  - name: "Compound Words"
+    short_name: "compound_words"
+    characterization: |
+      Smashes words together to create a single, heavy concept. It 
+      mirrors the way digital culture often collapses complex 
+      ideas into a single "tag" or "brand."
+    examples:
+      - "The WorldExodus is happening right now."
+      - "We are entering the GameLife era."
+      - "The RealityCollapse is unavoidable."
+
+  - name: "Space . Between . Words"
+    short_name: "space_between"
+    characterization: |
+      Creates an extreme slowing of the pace. It forces the reader 
+      to look at each word as a standalone object, emphasizing 
+      the "unreality" of the sentence.
+    examples:
+      - "The . Game . Is . Real ."
+      - "We . Are . Leaving . Now ."
+      - "Wait . For . The . Light ."
+
+  - name: "No-space-jammed"
+    short_name: "no_space_jammed"
+    characterization: |
+      The opposite—it mashes words together into a single, high-speed 
+      unit. It mirrors the feeling of being overwhelmed by data 
+      or the frantic energy of a high-level game.
+    examples:
+      - "Realityisbrokenandthegameisfixingit."
+      - "Threebillionpeopleloggingineveryweek."
+      - "Theexodushasbegunandthereisnoturningback."
+
+  - name: "Repeating symbols (???)"
+    short_name: "repeating_symbols"
+    characterization: |
+      Adds a "hyper-emotive" layer to a question or statement. It 
+      signals the author’s extreme shock or excitement, 
+      mimicking the informal communication of the internet.
+    examples:
+      - "How can anyone still think this is just a game???"
+      - "Three billion people!!! That’s almost half the world!!!"
+      - "Are we really just going to let reality fail???"
+
+  - name: "Logical symbols (=>)"
+    short_name: "logical_symbols"
+    characterization: |
+      Uses the symbols of formal logic to show that the exodus is a 
+      necessary conclusion of the premises. It makes the 
+      argument feel mathematical and undeniable.
+    examples:
+      - "Broken Reality => Digital Exodus."
+      - "Meaningful Play => Human Survival."
+      - "Lydian Famine + Dice => 18 Years of Life."
+
+  - name: "The Pipe Symbol (|)"
+    short_name: "pipe_symbol"
+    characterization: |
+      Acts as a clean, modern separator between ideas. It’s less 
+      formal than a colon but more structured than a comma, 
+      giving the prose a "UI/UX" feel.
+    examples:
+      - "History | The Lydians | The Dice."
+      - "Modernity | The Exodus | The Screen."
+      - "The Quest | The Reward | The Life."
+
+  - name: "Tilde Softness (~)"
+    short_name: "tilde_softness"
+    characterization: |
+      Used to show approximation or a playful, informal tone. It 
+      suggests that the numbers or ideas are flexible and 
+      subjective rather than rigid.
+    examples:
+      - "We spend ~three billion hours a week in virtual worlds."
+      - "Reality is ~broken beyond repair."
+      - "It’s been ~eighteen years since we last felt truly alive."
+
+  - name: "Percentage Focus (%)"
+    short_name: "percentage_focus"
+    characterization: |
+      Anchors the prose in the specific, measurable metrics of 
+      success and engagement. It makes the "feeling" of the 
+      argument feel like a "fact" of the data.
+    examples:
+      - "Our engagement levels are at 100% when we are in flow."
+      - "Reality is currently operating at 15% efficiency."
+      - "The digital exodus has grown by 500% in the last decade."
+
+  - name: "Currency Logic ($)"
+    short_name: "currency_logic"
+    characterization: |
+      Treats human attention and emotion as a literal currency. It 
+      frames the migration to games as a financial decision—where 
+      people are investing their "life-capital" where the returns 
+      are highest.
+    examples:
+      - "We are investing our attention where the payout is highest: the game."
+      - "The real world is bankrupt; the digital world is the new gold rush."
+      - "What is the exchange rate between a physical dollar and a virtual victory?"
+
+  - name: "Time-stamped"
+    short_name: "time_stamped"
+    characterization: |
+      Gives the prose the feel of a log-book or a diary of the 
+      apocalypse. It adds a sense of "real-time" urgency to the 
+      historical and modern narrative.
+    examples:
+      - "[08:00 AM] The world wakes up and logs in."
+      - "[12:00 PM] The famine of meaning reaches its daily peak."
+      - "[02:00 AM] The servers are full; the exodus is complete."
+
+  - name: "Signature / Ending seal"
+    short_name: "signature_seal"
+    characterization: |
+      The final "stamp" of the author’s authority. It marks the 
+      end of the argument and the beginning of the reader's 
+      own journey into the game.
+    examples:
+      - "—Jane McGonigal"
+      - "GAME OVER. (Or is it?)"
+      - "END OF LOG."
