@@ -1,0 +1,14 @@
+# maintainer: starlight.ai
+# author: starlight.ai
+# version v0.0.1
+# date: July 13, 2026
+# purpose: typical requirements.txt for package
+# changelog:
+#  v0.0.1 ==> inclusion of tools for arxiv, fastpdf, and wikipedia
+
+arxiv               # ArxivAPI
+pydantic            # ArxivAPI, WikipediaAPI
+pymupdf4llm         # fastpdf
+pyyaml              # fastpdf, hool_query_arxiv
+requests            # webfetch, WikipediaAPI
+trafilatura         # webfetch
